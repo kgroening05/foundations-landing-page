@@ -108,3 +108,30 @@ body{
   height: 150px;
   border-radius: 8px;
 }
+
+/* === Testimonials === */
+
+.testimonials{ 
+  background-color: #e5e7eb;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-card{
+  width: 600px;
+}
+
+.quote-card p{
+  font-size: 18px;
+}
+
+.quote{
+  font-style: italic;
+}
+
+.quote-attribution{
+  text-align: right;
+  font-weight: bold;
+}
