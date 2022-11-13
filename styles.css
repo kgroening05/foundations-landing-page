@@ -3,6 +3,7 @@ body{
   max-width: 960px;
 }
 
+/* === Header === */
 .header{
   display: flex;
   justify-content: space-between;
@@ -10,7 +11,8 @@ body{
 
 .logo a:link, .nav-links ul li a:link{
   text-decoration: none;
-  color: black;
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 
@@ -19,5 +21,50 @@ body{
   padding: 0;
   margin: 0;
   display: flex;
-  gap: 16px;
+  gap: 24px;
+}
+
+/* === Hero, Header === */
+
+.header, .hero{
+  background-color: #1f2937;
+}
+
+/* === Hero === */
+.hero{
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 32px;
+}
+
+.hero-image{
+  width: 400px;
+  height: 213px;
+  background-color: #e5e7eb;
+  text-align: center;
+}
+
+.hero-text h1{
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin: 0;
+}
+
+.hero-text p{
+  font-size: 18px;
+  color: #f9faf8;
+  font-weight: 300;
+  padding: 8px 0;
+  margin: 0;
+}
+
+.hero-text button{
+  border-radius: 8px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 8px 32px;
+  border: 0;
 }
